@@ -1,0 +1,74 @@
+html{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.popular, img{
+    background-color: #EFF9FA;
+    background-size: cover;
+}
+
+body{
+    background-color: #EFF9FA;
+}
+.popular{
+    min-height: 1200px;
+}
+
+.wrap{
+    margin-top:80px;
+    margin-left:10%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.5s;
+    width:345px;
+    height:300px;
+    border-radius: 10px;
+    margin:10px;
+    margin-right:30px;
+    float:left;
+}
+
+
+.button{
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-top:50px;
+    margin-bottom: 10px;
+    background-color: #0BA0AC;
+    color:#fff;
+    border-radius: 5px;
+    width:80px;
+    height:20px;
+    border:none;
+}
+
+.text1{
+    margin-left:10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.text2{
+    margin-top:-20px;
+    margin-left:10px;
+    font-size: 16px;
+}
+
+.more{
+    margin-left:47%;
+}
+
+.buttonMore{
+    margin-top:50px;
+    background-color: #0BA0AC;
+    color:#fff;
+    border-radius: 5px;
+    width:150px;
+    height:60px;
+    font-size:24px;
+    font-weight: bold;
+    border:none;
+}
