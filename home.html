@@ -13,26 +13,30 @@
             </a>
             </div>
             <ul class="nav-links">
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Testimonials</a></li>
-               <li><a href="#">Travel Packages</a></li>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#testimonials">Testimonials</a></li>
+               <li><a href="#popular">Travel Packages</a></li>
                <button class="nav-button">Masuk</button>
             </ul>  
     </nav>
-    <header>
+    <header id="header">
         <div class="Banner">
             <h3 >
                 Find Your Local
                 <br>
                 Travel Expert
             </h3>
-            <button class="btn-get-started">Get Started</button>
+            <a href="#popular"><button class="btn-get-started">Get Started</button></a>
 
         </div>
     </header>
-    <section class="popular">
-        <h2>Popular Travel</h2>
-        <h2>Itineraries</h2>
+    <section class="popular" id="popular">
+        <h2 class="text-popular">
+            Popular Travel
+            <br>
+            Itineraries
+        </h2>
+        
        <div class="wrap">
             <div class="card">
                 <img src="images/item-4 1.png">
@@ -131,6 +135,25 @@
         <div class="more">
             <button class="buttonMore">More Itinerary</button>
         </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="text-testi-top">
+            Our Testimonials
+        </h2>
+        <div class="card-testimonials">
+            <h3 class="text-testi-card">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore veniam numquam magnam. Cum, adipisci quia? Non fugiat praesentium repudiandae eum ex ullam, deserunt ad earum eveniet, aut commodi perferendis pariatur?
+            </h3>
+            <img src="images/user-1.png" width="100px" alt="">
+        </div>
+        <div class="card-testimonials">
+            <h3 class="text-testi-card">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore veniam numquam magnam. Cum, adipisci quia? Non fugiat praesentium repudiandae eum ex ullam, deserunt ad earum eveniet, aut commodi perferendis pariatur?
+            </h3>
+            <img src="images/user-1.png" width="100px" alt="">
+        </div>
+        
     </section>
     
 </body>

@@ -94,7 +94,7 @@ header{
 .btn-get-started:hover{
     font-weight: bold;
     font-size: 18px;
-    background-color: #42b9c2;
+    background-color: #27acb6;
     color:#fff;
     border-radius: 5px;
     width:150px;
@@ -115,7 +115,7 @@ body{
 .popular{
     
     margin-left: 5%;
-    min-height: 1200px;
+    min-height: 1000px;
 }
 
 .wrap{
@@ -176,6 +176,11 @@ body{
     font-size: 16px;
 }
 
+.text-popular{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
 .more{
     margin-left:47%;
 }
@@ -207,4 +212,33 @@ h2{
     font-size:24px;
     font-weight: bold;
     border:none;
+}
+
+.testimonials{
+    min-height: 600px;
+}
+.card-testimonials{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.5s;
+    width:500px;
+    height:250px;
+    border-radius: 10px;
+    margin:10px;
+    margin-left: 250px;
+    float: left;
+}
+
+.card-testimonials img{
+    margin-right: 50px;
+    float: right;
+}
+.text-testi-card{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.text-testi-top{
+    font-size: 40px;
+    margin-left: 43%;
 }
